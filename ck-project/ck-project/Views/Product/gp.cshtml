@@ -53,14 +53,14 @@
             </div>
             <div class='col-xs-4 '>
                 <div class="form-group">
-                    <label class="control-label" for="name">Source</label>
+                    <label class="control-label" for="name">Vendor Source</label>
                     @Html.EditorFor(model => item.product_source, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => item.product_source, "", new { @class = "text-danger" })
                 </div>
             </div>
             <div class='col-xs-4 '>
                 <div class="form-group">
-                    <label class="control-label" for="name">Manufacture</label>
+                    <label class="control-label" for="name">Manufacturer</label>
                     @Html.EditorFor(model => item.manufacture, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => item.manufacture, "", new { @class = "text-danger" })
                 </div>
